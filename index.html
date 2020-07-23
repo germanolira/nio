@@ -6,6 +6,16 @@
       <link rel="stylesheet" href="master.css">
       <link rel="shortcut icon" href="img/favicon.ico"/>
       <title>NIO Framework | Light, Fast & Beautiful CSS Framework</title>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
    </head>
    <body>
       <div class="topnav" id="myTopnav">
@@ -27,15 +37,5 @@
       </div>
       <div>
       </div>
-      <script>
-         function myFunction() {
-           var x = document.getElementById("myTopnav");
-           if (x.className === "topnav") {
-             x.className += " responsive";
-           } else {
-             x.className = "topnav";
-           }
-         }
-      </script>
    </body>
 </html>
