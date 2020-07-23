@@ -144,6 +144,15 @@ body {
 	}
 }
 
+@media screen and (max-width: 414px) {
+	.texto-principal {
+		font-size: 25px !important;
+	}
+	.myButton {
+		font-size: 15px !important;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.texto-principal {
 		font-size: 45px;
