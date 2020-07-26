@@ -1,0 +1,22 @@
+body {
+    background: white !important;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.header {
+    background: white !important;
+}
+
+.card {
+    background: white !important;
+}
+
+.text {
+    font-family: sans-serif, Helvetica, Arial !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+.sub-text {
+    font-size: 10px !important;
+}
